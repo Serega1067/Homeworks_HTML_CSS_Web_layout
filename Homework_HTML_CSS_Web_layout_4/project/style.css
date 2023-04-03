@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Gilroy-ExtraBold';
+    src: url('./fonts/Gilroy-ExtraBold.otf');
+}
+
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url('./fonts/Gilroy-Light.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 586px);
+    padding-right: calc(50% - 586px);
+}
+
+a {
+
+    text-decoration: none;
+}
+
+.header {
+    margin-top: 40px;
+    margin-bottom: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section__link {
+    font-family: 'Gilroy-Light';
+    width: 533px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__link1 {
+    font-size: 14px;
+    line-height: 16px;
+    color: #F25822;
+}
+
+.header__link {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.top_info {
+    width: 522px;
+    height: 374px;
+}
+
+.title {
+    margin-bottom: 17px;
+    width: 522px;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.text {
+    width: 466px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+}
+.top__buttons {
+    margin-top: 37px;
+    display: flex;
+    gap: 72px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.button1 {
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+
+.button2 {
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    width: 90px;
+    height: 19px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+}
+
+.top__content {
+    margin-bottom: 162px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 39px;
+}
+
+.top__logos {
+    padding-top: 96px;
+    padding-bottom: 97px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 48px;
+}
